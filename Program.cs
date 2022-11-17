@@ -17,7 +17,7 @@ public class Rectangle : Shape
 
     public override int Scope(int length, int width)
     {
-        return (length * 2 )+ (width * 2 );
+        return (length * 2 ) + (width * 2 );
     }
 }
 //answer 7:
@@ -54,7 +54,7 @@ public class Truck : ICar
         Truck truck = new Truck();
         truck.GetICar(truck);
     }
-    //answer 8:
+ //answer 8:
     public class MyClass
     {
         public int MyFunc(int a)
@@ -152,7 +152,7 @@ public class Truck : ICar
     //כהמשך לתשובה הקודמת (9)- יצרתי פונקציה שיוצרת מבנה מצורה שקיבלה
     //( shape מקבלת כפרמטר),
     //ויחד עם המחלקות המממשות את צורה (מלבן וריבוע) יצרתי פונציית
-    //(factoryTheShape)
+    //(FactoryTheShape)
     //שהיא אחראית לטפל בכל מה שקשור למחלקות המממשות, במקרה זה היא אחראית ליצור אוביקט חדש לפי קלט שהמשתמש הכניס
     //השימוש בה מאפשר בצורה מסודרת להוסיף מחלקות מממשות וכו' כי היא מעין ה"כיסוי" של המחלקות המממשות, ברעיון של הסתרת נתונים.
 }
